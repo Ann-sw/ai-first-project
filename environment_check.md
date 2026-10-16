@@ -47,12 +47,17 @@ pip install requests       # встановити бібліотеку
 
 **Корисні команди:**
 ```bash
-git status                 # які файли змінено
-git add environment_check.md   # додати файл до наступного коміту
-git commit -m "Опис змін"  # зберегти зміни
-git log --oneline          # переглянути історію
-git push                   # відправити зміни на GitHub
-git pull                   # отримати зміни з GitHub
+git checkout -b назва гілки   # створити нову гілку
+git checkout назва гілки      # переключитись на потрібну гілку
+git branch                    # перевіряємо активну гілку
+git Touch назва файлу         # створити рідмі файл (нп READMI.md)
+git ls                        # переглянути всі створені файли
+git status                    # які файли змінено
+git add назва файлу           # додати файл до наступного коміту
+git commit -m "Опис змін"     # зберегти зміни
+git log --oneline             # переглянути історію
+git push                      # відправити зміни на GitHub
+git pull                      # отримати зміни з GitHub
 ```
 
 ---
